@@ -1,4 +1,5 @@
 import 'package:app_6simic1/login.dart';
+import 'package:app_6simic1/reseuble/my_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,6 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Aplikasi 6SIMIC1',
       theme: ThemeData(
         primarySwatch: Colors.blue,
